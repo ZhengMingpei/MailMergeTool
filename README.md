@@ -5,11 +5,11 @@
 
 工具核心部分的代码使用[Bouke写的docx-mailmerge](https://github.com/Bouke/docx-mailmerge)，做了部分修改。
 
-## 支持平台
+## 支持平台及下载链接
 
 不需要安装有MS office，但是工具运行需要导入的xlsx和docx文件的编辑需要使用MS office或者WPS office的较新版本（2007及以后）
 
-windows(释放绿色版exe文件，即开即用)
+[windows(释放绿色版exe文件，即开即用)](https://github.com/ZhengMingpei/MailMergeTool/releases/download/v1.0/maincli.exe)
 
 linux(将会以源码形式)
 
