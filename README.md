@@ -41,17 +41,15 @@ linux(将会以源码形式)
 |晁盖	|男|	汉族
 |李逵	|男|	汉族
 
-第一行为数据域名字，第二行以后为数据域，每行为一条数据，数据域可为空
+    第一行为数据域名字，第二行以后为数据域，每行为一条数据，数据域可为空
 
 2. 指定你的docx文件作为模板，比如当前目录下有`.\test\1.docx`，也可以直接指定目录`.\test\`，程序会自动查找指定目录中的所有docx文件
 
-docx文件中包含插入的邮件合并域（wps中的插入方法是：插入-文档组件-域-邮件合并），形如：
+    docx文件中包含插入的邮件合并域（wps中的插入方法是：插入-文档组件-域-邮件合并），形如：
 
 ![commit1](https://github.com/ZhengMingpei/MailMergeTool/blob/master/commit1.png)
 
-3. 运行`maincli.exe .\demodata.xlsx .\test\1.docx`或者`maincli.exe .\demodata.xlsx .\test\`，将会生成以当前时间命名的文件夹，内含生成的所有docx.
-
-形如：
+3. 运行`maincli.exe .\demodata.xlsx .\test\1.docx`或者`maincli.exe .\demodata.xlsx .\test\`，将会生成以当前时间命名的文件夹，内含生成的所有docx. 形如：
 
 ![commit2](https://github.com/ZhengMingpei/MailMergeTool/blob/master/commit2.png)
 
