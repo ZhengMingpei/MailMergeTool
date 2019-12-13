@@ -3,6 +3,8 @@
 
 **目前稳定命令行版为1.0版本，图形界面版已发布，目前为1.0beta版本，源码待完善后上传。**
 
+文档点 [这里](https://zhengmingpei.github.io/MailMergeTool/)
+
 图形界面版运行图如下：
 
 ![图形界面版截图](docx/GUI-1.0.png)
@@ -14,8 +16,6 @@
 可执行程序目前仅支持windows的64bit系统，python源码支持所有满足依赖的平台。
 
 不需要安装有MS office，但是工具运行需要导入xlsx和docx文件，这些文件的编辑需要使用MS office或者WPS office的较新版本（2007及以后）。
-
-文档见(这里)[https://zhengmingpei.github.io/MailMergeTool/]
 
 ### 下载链接：
 
