@@ -5,7 +5,7 @@
 
 图形界面版运行图如下：
 
-![图形界面版截图](docx/GUI-1.0.png)
+![图形界面版截图](GUI-1.0.png)
 
 工具核心部分的代码使用[Bouke写的docx-mailmerge](https://github.com/Bouke/docx-mailmerge)，做了部分修改。
 
@@ -47,11 +47,11 @@ linux(将会以源码形式)
 
     docx文件中包含插入的邮件合并域（wps中的插入方法是：插入-文档组件-域-邮件合并），形如：
 
-![commit1](docx/commit1.png)
+![commit1](commit1.png)
 
 3. 运行`maincli.exe .\demodata.xlsx .\test\1.docx`或者`maincli.exe .\demodata.xlsx .\test\`，将会生成以当前时间命名的文件夹，内含生成的所有docx. 形如：
 
-![commit2](docx/commit2.png)
+![commit2](commit2.png)
 
 ### linux平台下的使用方法
 
