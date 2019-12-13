@@ -15,6 +15,8 @@
 
 不需要安装有MS office，但是工具运行需要导入xlsx和docx文件，这些文件的编辑需要使用MS office或者WPS office的较新版本（2007及以后）。
 
+文档见(这里)[https://zhengmingpei.github.io/MailMergeTool/]
+
 ### 下载链接：
 
 源码：敬请期待
