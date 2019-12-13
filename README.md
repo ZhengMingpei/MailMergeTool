@@ -1,19 +1,37 @@
 # MailMergeTool
-该工具可以指定1个xlsx作为数据来源、指定1个或多个docx作为模板批量进行邮件合并操作生成大量docx。
+该工具可以指定1个xlsx作为数据来源、指定1个或多个docx作为模板批量进行**邮件合并**操作生成大量docx。
 
-目前稳定版为1.0版本，**暂时只有命令行版本**，图形版本尚在beta，源码待完善后上传。
+**目前稳定命令行版为1.0版本，图形界面版已发布，目前为1.0beta版本，源码待完善后上传。**
+
+图形界面版运行图如下：
+
+![图形界面版截图](https://github.com/ZhengMingpei/MailMergeTool/blob/master/截图2019-12-13-211139.png)
 
 工具核心部分的代码使用[Bouke写的docx-mailmerge](https://github.com/Bouke/docx-mailmerge)，做了部分修改。
 
 ## 支持平台及下载链接
 
-不需要安装有MS office，但是工具运行需要导入的xlsx和docx文件的编辑需要使用MS office或者WPS office的较新版本（2007及以后）
+可执行程序目前仅支持windows的64bit系统，python源码支持所有满足依赖的平台。
 
-[windows(释放绿色版exe文件，即开即用)](https://github.com/ZhengMingpei/MailMergeTool/releases/download/v1.0/maincli.exe)
+不需要安装有MS office，但是工具运行需要导入xlsx和docx文件，这些文件的编辑需要使用MS office或者WPS office的较新版本（2007及以后）。
+
+### 下载链接：
+
+源码：敬请期待
+
+[windows命令行版(释放绿色版exe文件，即开即用)](https://github.com/ZhengMingpei/MailMergeTool/releases/download/v1.0/maincli.exe)
+
+[windows64位图形界面版](https://github.com/ZhengMingpei/MailMergeTool/releases/download/v1.0/mailmergeTool-GUI-cn-x64.exe)
 
 linux(将会以源码形式)
 
-### windows平台下的使用方法
+### 使用方法
+
+#### windows平台下的图形界面版使用方法
+
+下载完成后，双击运行下载好的`mailmergeTool-GUI-cn-x64.exe`，准备好xlsx和docx文件（格式可见下文）后，根据界面指示操作即可
+
+#### 命令行版使用方法（含数据及模板介绍）
 
 1. 指定你的xlsx文件作为数据源，比如当前目录下有`demodata.xlsx`，数据需形如：
 
@@ -49,7 +67,7 @@ docx文件中包含插入的邮件合并域（wps中的插入方法是：插入-
 
 * 暂不支持自定义数据域范围，默认生成所有合法的数据域，上面例子中的表格数据，会对每个模板根据所有三条数据生成三个docx文件。
 
-* 暂不支持自定义输出目录，自定义输出文件名等
+* 图形版已支持自定义输出目录，不支持自定义输出文件名等
 
 ## 作者备注
 
