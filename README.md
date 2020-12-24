@@ -7,7 +7,7 @@
 
 图形界面版运行图如下：
 
-![图形界面版截图](docx/GUI-1.0.png)
+![图形界面版截图](https://github.com/ZhengMingpei/MailMergeTool/blob/master/docx/GUI-1.0.png)
 
 工具核心部分的代码使用[Bouke写的docx-mailmerge](https://github.com/Bouke/docx-mailmerge)，做了部分修改。
 
